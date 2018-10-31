@@ -5,4 +5,12 @@ Material for [the workshop at Appled Machine Learning Days 2019](https://www.app
 https://github.com/FakeNewsChallenge/fnc-1
 
 ### Docker: 
-We will list here all the necessary libraries closer to the date of the conference, but please be aware that there will be no time for installations during our workshop. To ease the process we will provide a Docker image. Please make sure that this solution works for you prior to the workshop.
+We will list here all the necessary libraries closer to the date of the conference, but please be aware that there will be no time for installations during the workshop. To ease the process we will provide a Docker image. Please make sure that this solution works for you prior to the workshop.
+
+### Tentative plan: 
+- Problem statement
+- Dataset explanation
+- Methods: NLP
+- Methods: classification and clustering methods 
+- Methods: neural networks
+- Overview of common software for fake news detection
