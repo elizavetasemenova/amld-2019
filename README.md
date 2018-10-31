@@ -10,7 +10,7 @@ We will list here all the necessary libraries closer to the date of the conferen
 ### Tentative plan: 
 - Problem statement
 - Dataset explanation
-- Methods: NLP
-- Methods: classification and clustering methods 
+- Methods: natural language processing
+- Methods: classification and clustering 
 - Methods: neural networks
 - Overview of common software for fake news detection
