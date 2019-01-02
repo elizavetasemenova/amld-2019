@@ -1,4 +1,4 @@
-Material for [the workshop at Appled Machine Learning Days 2019](https://www.appliedmldays.org/): "Machine Learning for fake news detection: theory and practice." Any content of this repository before the 26th January 2019 is subject to change.
+Material for [the workshop at Appled Machine Learning Days 2019](https://www.appliedmldays.org/): "Machine Learning for fake news detection: theory and practice." Any content of this repository before the 27th January 2019 is subject to change.
 
 
 ### Data: 
