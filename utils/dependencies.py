@@ -1,6 +1,10 @@
 import random
 import os
 
+LABELS = ['agree', 'disagree', 'discuss', 'unrelated']
+LABELS_RELATED = ['unrelated','related']
+RELATED = LABELS[0:3]
+
 def generate_hold_out_split (dataset, training = 0.8, base_dir="splits"):
     r = random.Random()
     r.seed(1489215)
