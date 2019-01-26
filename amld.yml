@@ -12,6 +12,7 @@ dependencies:
 - spacy=2.0.5
 - tensorflow=1.1.0
 - pandas=0.22.0
+- nb_conda
 - pip:
         - wordcloud
         - ipykernel
