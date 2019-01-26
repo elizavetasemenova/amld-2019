@@ -8,7 +8,7 @@ Dataset is provided in this repository.
 ## Downloading pickles (to speed up computation)
 ~~~
 curl https://www.dropbox.com/s/bgfpgko57vicqj2/trainingdatatokens.pkl?dl=0 -L -o trainingdatatokens.pkl
-curl https://www.dropbox.com/s/o38caqmlcehgq85/data_tfidf.pkl?dl=0-L -o data_tfidf.pkl
+curl https://www.dropbox.com/s/o38caqmlcehgq85/data_tfidf.pkl?dl=0 -L -o data_tfidf.pkl
 ~~~
 
 ### Getting started
