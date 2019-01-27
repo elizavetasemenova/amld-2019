@@ -1,9 +1,36 @@
 import numpy as np
 import os
+import re
+import nltk
+
+from sklearn import feature_extraction
 
 LABELS = ['agree', 'disagree', 'discuss', 'unrelated']
 LABELS_RELATED = ['unrelated','related']
 RELATED = LABELS[0:3]
+
+
+_wnl = nltk.WordNetLemmatizer()
+
+def normalize_word(w):
+    return _wnl.lemmatize(w).lower()
+
+def get_tokenized_lemmas(s):
+    return [normalize_word(t) for t in nltk.word_tokenize(s)]
+
+def clean(s):
+    # Cleans a string: Lowercasing, trimming, removing non-alphanumeric
+    return " ".join(re.findall(r'\w+', s, flags=re.UNICODE)).lower()
+
+def remove_stopwords(l):
+    # Removes stopwords from a list of tokens
+    return [w for w in l if w not in feature_extraction.text.ENGLISH_STOP_WORDS]
+
+def get_clean_tokens(s):
+    s = clean(s)
+    tokens = get_tokenized_lemmas(s)
+    clean_tokens = remove_stopwords(tokens)
+    return clean_tokens
 
 def word_overlap_features(headlines, bodies):
     # Computes the percentage of overlap between the headline and the body of text (numerical)
