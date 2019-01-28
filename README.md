@@ -25,6 +25,19 @@ conda env create -f amld.yml
 source activate amld
 ~~~
 
+### Learning more / Resources
+#### Fake News Guide
+http://www.cits.ucsb.edu/fake-news
+
+#### Books
+Introduction to IR/NLP – https://nlp.stanford.edu/IR-book/information-retrieval-book.html
+Introduction to deep learning – https://github.com/janishar/mit-deep-learning-book-pdf
+
+#### Courses
+Deep NLP (Stanford) - http://cs224d.stanford.edu/ or http://web.stanford.edu/class/cs224n/
+Video Lectures (YouTube) – https://www.youtube.com/playlist?list=PLqdrfNEc5QnuV9RwUAhoJcoQvu4Q46Lja
+
+
 ### Schedule
 9:00 - 9:15: Introduction   
 9:15 - 9:30: Problem statement     
